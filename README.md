@@ -13,6 +13,11 @@ export type MixinStringConf = {
   defaultValue?: string
 }
 
+/**
+* Mixin for adding a string to a class.
+*
+* @param MixinStringConf
+**/
 export class MixinString extends Mixin {
   myString: string;
 
